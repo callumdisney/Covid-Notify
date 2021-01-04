@@ -1,5 +1,5 @@
 # Covid-Notify
-Sends a notification every 4 hours to alert of of current Covid-19 number.
+Sends a notification every 4 hours to alert of of current COVID-19 numbers.
 
 # So, who made it?
 The api used is the [Corona Rest API](https://corona-rest-api.herokuapp.com/Api/), built on the [Django REST framework](https://www.django-rest-framework.org/).
