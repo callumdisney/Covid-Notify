@@ -8,3 +8,4 @@ The base code was written by [traditionallimb](https://github.com/traditionallim
 # Countrys and Languages
 
 [UK (British English)](https://github.com/callumdisney/Covid-Notify/tree/main/UK)
+[USA (American English)](https://github.com/callumdisney/Covid-Notify/tree/main/USA)
