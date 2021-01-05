@@ -1,5 +1,5 @@
 # !/usr/bin/env python3
-# Desktop notifier built for updates for the covid pandemic in World
+# Desktop notifier built for updates for the covid pandemic in the World
 # Made by traditionallimb - Refined and parts added by Callum Disney
 # Made 10.11.20
 # Refined and parts added 04.01.21
