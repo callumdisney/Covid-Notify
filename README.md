@@ -26,4 +26,4 @@ The base code was originally written by [traditionallimb](https://github.com/tra
 <br>
 
 ## Español
-[Vea este enlace para todas las cosas en español (¡Es posible que las cosas no sean correctas ya que se utilizó traducción por computadora!)](https://github.com/callumdisney/Covid-Notify/tree/espa%C3%B1ol)
+[Vea este enlace para todas las cosas en español.](https://github.com/callumdisney/Covid-Notify/tree/espa%C3%B1ol) (¡Es posible que las cosas no sean correctas ya que se utilizó traducción por computadora!)
