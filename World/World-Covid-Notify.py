@@ -1,13 +1,13 @@
-# !/usr/bin/env python3
-# Desktop notifier built for updates for the covid pandemic in the World
-# Made by traditionallimb - Refined and parts added by Callum Disney
-# Made 10.11.20
-# Refined and parts added 04.01.21
+# ! / usr / bin / env python3
+# Notificador de escritorio construido para actualizaciones de la pandemia de covid en el mundo
+# Hecho por traditionallimb  - Refinado y partes agregadas por Callum Disney
+# Hecho 10.11.20
+# Refinado y piezas añadidas 04.01.21
 
 
 
 
-# Imports need dependencies.
+# Las importaciones necesitan dependencias.
 import datetime
 import time
 import requests
@@ -20,24 +20,23 @@ except:
   print("Please check your internet connection!")
 
 if (covidData != None):
-    # Converts data into JSON format
+    # Convierte datos en formato JSON
     data = covidData.json()['Success']
 
-    # Repeats the loop forever/until code stopped
+    # Repite el ciclo para siempre / hasta que el código se detenga
     while(True):
         notification.notify(
-            # The title of the notification
-            title = "World COVID-19 Stats today ({})".format(datetime.date.today()),
-            # The body of the notification
-            message = "Total Cases: {totalCases}\nToday\'s Cases: {casesToday}\nToday\'s Deaths: {deathsToday}\nCritical Cases: {criticalCases}".format(
-                        totalCases = data['cases'],
-                        casesToday = data['todayCases'],
-                        deathsToday = data['todayDeaths'],
-                        criticalCases = data["critical"]),
-            app_icon = "", # If you wish to have a custom icon, put the path to your icon in between the inverted commas (""). Make sure it's a .ico file!
-            # The notification will stay for 50 seconds unless dismissed
+            # El título de la notificación
+            title = "Estadísticas mundiales de COVID-19 hoy ({})".format(datetime.date.today()),
+            # El cuerpo de la notificación
+            message = "Total de Casos: {totalDeCasos}\nCasos de Hoy: {casosDeHoy}\nMuertes de Hoy: {muertesDeHoy}\nCasos Críticos: {casosCríticos}".format(
+                        totalDeCasos = data['cases'],
+                        casosDeHoy = data['todayCases'],
+                        muertesDeHoy = data['todayDeaths'],
+                        casosCríticos = data["critical"]),
+            app_icon = "", # Si desea tener un icono personalizado, coloque la ruta a su icono entre las comas (""). ¡Asegúrese de que sea un archivo .ico!
             timeout  = 50
         )
 
-        # Notification repeats after every 4 hours
-        time.sleep(60*30) # (Sleep for 4 hours => 60*60*4 sec)
+        # La notificación se repite cada 4 horas
+        time.sleep(60*30) # (Dormir durante 4 horas => 60 * 60 * 4 seg)
