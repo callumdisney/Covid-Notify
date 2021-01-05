@@ -1,4 +1,4 @@
-# ! / usr / bin / env python3
+# !/usr/bin/env python3
 # Notificador de escritorio construido para actualizaciones de la pandemia de covid en el mundo
 # Hecho por traditionallimb  - Refinado y partes agregadas por Callum Disney
 # Hecho 10.11.20
