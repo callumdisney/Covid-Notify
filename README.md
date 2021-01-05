@@ -9,21 +9,13 @@ The base code was originally written by [traditionallimb](https://github.com/tra
 
 ## English
 - [World](https://github.com/callumdisney/Covid-Notify/tree/main/World)
-<br>
 - [UK](https://github.com/callumdisney/Covid-Notify/tree/main/UK)
-<br>
 - [USA](https://github.com/callumdisney/Covid-Notify/tree/main/USA)
-<br>
 - [India](https://github.com/callumdisney/Covid-Notify/tree/main/India)
-<br>
 - [Brazil](https://github.com/callumdisney/Covid-Notify/tree/main/Brazil)
-<br>
 - [Russia](https://github.com/callumdisney/Covid-Notify/tree/main/Russia)
-<br>
 - [France](https://github.com/callumdisney/Covid-Notify/tree/main/France)
-<br>
 - [Turkey](https://github.com/callumdisney/Covid-Notify/tree/main/Turkey)
-<br>
 
 ## Español
 ¡Es posible que las cosas no sean correctas ya que se utilizó traducción por computadora!
